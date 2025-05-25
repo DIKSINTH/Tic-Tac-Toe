@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <link rel="stylesheet" href="ttt.css" />
+  <link rel="icon" href="tic-tac-toe.png" />
+  <body>
+    <div class="container">
+      <h1>Tic Tac Toe</h1>
+      <div>
+        <input type="text" id="player1" placeholder="Player 1 Name" />
+        <input type="text" id="player2" placeholder="Player 2 Name" />
+        <select id="symbol">
+          <option value="X">Player 1: X</option>
+          <option value="O">Player 1: O</option>
+        </select>
+        <button onclick="startGame()">Start Game</button>
+      </div>
+
+      <div id="timer"></div>
+      <div id="status"></div>
+      <div id="game-board"></div>
+    </div>
+
+    <script src="ttt.js"></script>
+  </body>
+</html>
